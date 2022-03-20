@@ -1,0 +1,16 @@
+{
+    "version": 3,
+    "mappings": "ACAA,OAAO,CAAC,6LAAI",
+    "sources": [
+        "../assets/scss/index.scss",
+        "../assets/fonts/_fonts.scss",
+        "../assets/helpers/_variables.scss",
+        "../assets/helpers/_mixin.scss",
+        "../assets/components/_classes.scss",
+        "../assets/components/_header.scss",
+        "../assets/components/_hero.scss",
+        "../assets/components/_footer.scss"
+    ],
+    "names": [],
+    "file": "index.css"
+}
