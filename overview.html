@@ -1,13 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="../assets/scss/overview.scss">
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="./css/overview.css" />
+    <link rel="stylesheet" href="./css/calendar.css" />
+  </head>
+  <body>
+
+
+    <div class="home">
+      <div class="container">
+        <div class="home__title">Автобусный тур</div>
+        <div class="home__subtitle">
+          ЗОЛОТОЕ КОЛЬЦО АБХАЗИИ <br />
+          (ИЗ АДЛЕРА)
+        </div>
+        <div class="home__end">
+          <button class="btn">
+            К другим экскурсиям
+            <div class="btn__arrow">
+              <img src="./assets/img/arrow_button.svg" alt="arrow_button" />
+            </div>
+          </button>
+          <div class="home__end_favourites">
+            <img src="./assets/img/overview/favourites.svg" alt="favourites" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="description">
+      <div class="container">
+        <div class="trip">
+          <div class="trip__left">
+            <div class="trip__left_title">Описание экскурсии</div>
+            <div class="trip__left_subtitle">
+              Вас ждет путешествие по "Золотому Кольцу Абхазии" на Мерседес
+              Спринтер (20 мест). По маршруту вас будет сопровождать
+              профессиональный гид. Посадка на экскурсию осуществляется с вашего
+              отеля или ближайшей автобусной остановки. Пересечение границы без
+              пересадок.
+            </div>
+          </div>
+          <div class="trip__right">
+            <img
+              class="trip__right_img"
+              src="./assets/img/overview/adult.svg"
+              alt=""
+            />
+            <img
+              class="trip__right_img"
+              src="./assets/img/overview/child.svg"
+              alt=""
+            />
+            <img
+              class="trip__right_img"
+              src="./assets/img/overview/time.svg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="triptime">
+        
+      <div class="triptime__pic">
+        <img src="./assets/img/overview/calendar_pic.png" alt="calendar_pic" />
+        
+        <span class="triptime__title">Календарь путешествий</span>
+
+        <div class="calendarbox">
+            
+        </div>
+        <div class="calendar">
+          <div class="calendar-header">
+            <div class="year-picker">
+              <span class="year-change" id="prev-year">
+                <pre><</pre>
+              </span>
+              <span class="month-picker" id="month-picker">February</span>
+              <span id="year">2021</span>
+              <span class="year-change" id="next-year">
+                <pre>></pre>
+              </span>
+            </div>
+          </div>
+          <div class="calendar-body">
+            <div class="calendar-week-day">
+              <div>ПН</div>
+              <div>ВТ</div>
+              <div>СР</div>
+              <div>ЧТ</div>
+              <div>ПТ</div>
+              <div>СБ</div>
+              <div>ВС</div>
+            </div>
+            <div class="calendar-days"></div>
+          </div>
+          <div class="month-list"></div>
+        </div>
+
+      </div>
+    </div>
+
+    <script src="./js/calendar.js"></script>
+  </body>
 </html>

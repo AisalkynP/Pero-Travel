@@ -1,0 +1,33 @@
+.trip {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 150px;
+
+  &__left {
+    &_title {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 29px;
+      color: #0499dd;
+      margin-bottom: 40px;
+    }
+    &_subtitle {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+      color: #282828;
+      line-height: 110%;
+      width: 382px;
+    }
+  }
+  &__right{
+      padding-left: 93px;
+  }
+  &_img{
+      display: flex;
+      margin: 56px;
+  }
+}

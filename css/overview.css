@@ -1,2 +1,153 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.btn {
+  background: linear-gradient(92.71deg, #0499dd 0%, #17c1bc 100%);
+  border-radius: 60px;
+  border: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  padding: 17px 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.btn__arrow {
+  padding-left: 9px;
+}
+
+.home__title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffc700;
+  padding-bottom: 10px;
+  padding-top: 129px;
+}
+
+.home__subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  color: #ffffff;
+  padding-bottom: 40px;
+}
+
+.home__end {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.home__end_favourites {
+  margin-left: 15px;
+}
+
+.trip {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 150px;
+}
+
+.trip__left_title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #0499dd;
+  margin-bottom: 40px;
+}
+
+.trip__left_subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #282828;
+  line-height: 110%;
+  width: 382px;
+}
+
+.trip__right {
+  padding-left: 93px;
+}
+
+.trip_img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 56px;
+}
+
+.triptime {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.triptime__pic {
+  margin-top: 150px;
+  position: relative;
+}
+
+.triptime__title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: right;
+  color: #0499dd;
+  position: absolute;
+  left: 957px;
+  top: 150px;
+  width: 323px;
+  height: 29px;
+  padding: auto;
+}
+
+.triptime .calendarbox {
+  background: #EDEDED;
+  border-radius: 10px;
+}
+
+.triptime .calendar {
+  position: absolute;
+  top: 270px;
+  left: 720px;
+  background: #EDEDED;
+  border-radius: 10px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.home {
+  background: url(../assets/img/overview/golden_ring.png) center no-repeat;
+  background-size: cover;
+  height: 670px;
+}
+
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+}
 /*# sourceMappingURL=overview.css.map */
