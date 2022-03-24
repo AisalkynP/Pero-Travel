@@ -13,13 +13,24 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  border: 3px solid #0499dd;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .btn__arrow {
   padding-left: 9px;
+}
+
+.btn:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background: none;
+  color: #0499dd;
+  cursor: pointer;
 }
 
 .home__title {
