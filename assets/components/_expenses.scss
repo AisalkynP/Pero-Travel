@@ -1,0 +1,17 @@
+.expenses {
+  padding-top: 150px;
+
+  &__span {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #0499dd;
+  }
+
+  &__bottom {
+    display: flex;
+    padding-top: 90px;
+  }
+}

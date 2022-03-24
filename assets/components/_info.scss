@@ -1,0 +1,110 @@
+.info {
+  &__parts {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  padding-top: 150px;
+  &__span {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #0499dd;
+  }
+  &__left {
+    &_title {
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 22px;
+      color: #000000;
+      width: 550px;
+      padding-top: 90px;
+    }
+    &_passport {
+      display: flex;
+      align-items: flex-start;
+      padding-top: 40px;
+      column-gap: 28px;
+    }
+    &_info1 {
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 22px;
+      color: #0499dd;
+    }
+    &_birth {
+      display: flex;
+      column-gap: 28px;
+      align-items: flex-start;
+      padding-top: 45px;
+    }
+    &_info2 {
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 22px;
+      color: #0499dd;
+    }
+    &_info3 {
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+      color: #282828;
+      padding-top: 20px;
+      width: 455px;
+    }
+    &_spans {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  &__right {
+      display: flex;
+      flex-direction: column;
+      row-gap: 51px;
+
+    &_span {
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+      color: #282828;
+
+    }
+    &_impor {
+      display: flex;
+      align-items: center;
+      column-gap: 10px;
+      background: #ededed;
+      border-radius: 10px;
+      padding: 27px 40px 27px 40px;
+    }
+    &_impor2 {
+        display: flex;
+        align-items: center;
+        column-gap: 30px;
+        background: #ededed;
+        border-radius: 10px;
+        padding: 40px 23px 25px 27px;
+      }
+      &_span2 {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        color: #282828;
+  
+      }
+  }
+}
