@@ -133,6 +133,69 @@
   border-radius: 10px;
 }
 
+.route__left_title {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #0499dd;
+  padding-top: 210px;
+  padding-bottom: 90px;
+}
+
+.route__left_subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #282828;
+}
+
+.route__left_subtitle-span {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #282828;
+  padding-left: 40px;
+  bottom: 40px;
+}
+
+.route__left_subtitle__ul {
+  list-style-type: none;
+}
+
+.route__left_subtitle__li {
+  padding-bottom: 21px;
+}
+
+.route__left_subtitle__li2 {
+  padding-bottom: 40px;
+}
+
+.route__left_subtitle__li3 {
+  padding-bottom: 20px;
+}
+
+.route__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-column-gap: 26px;
+          column-gap: 26px;
+}
+
+.fake {
+  margin-top: 25px;
+  color: white;
+}
+
 body {
   margin: 0;
   padding: 0;

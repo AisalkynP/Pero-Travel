@@ -279,6 +279,7 @@ body {
     visibility: visible;
     pointer-events: visible;
     transition: all 0.2s ease-in-out;
+    background: #EDEDED;;
 }
 
 .month-list > div {
