@@ -1,0 +1,49 @@
+.main {
+  background: url("../assets/img/waterfall.png");
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  color: #ffffff;
+  padding: 237px 557px 265px 90px;
+}
+h1 {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 88px;
+}
+.text {
+  position: absolute;
+  right: 518px;
+  top: 305px;
+}
+
+h3 {
+  font-weight: 900;
+  font-size: 96px;
+  color: transparent; /* прозрачный цвет букв */
+  -webkit-text-stroke: 1px white;
+  width: 723px;
+  height: 117px;
+  font-style: normal;
+}
+.main__socialMedia {
+  position: absolute;
+  right: 100px;
+  top: 300px;
+}
+.btn {
+  margin: 40px 0px 0px 70px;
+}
+
+.main__slide {
+  position: absolute;
+  bottom: -295px;
+  right: 0px;
+}
+.main__slide2 {
+  position: absolute;
+  left: 137px;
+  bottom: 82px;
+}
+.main__slide3 {
+  margin-left: 10px;
+}

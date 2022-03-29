@@ -1,0 +1,29 @@
+@mixin font($size, $weight, $color) {
+  font-size: $size;
+  font-weight: $weight;
+  color: $color;
+  line-height: 17px;
+}
+
+@mixin flex($justify: center, $align: center) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+// h1 {
+//   @include font(10px, 600, black);
+//   @include flex(space-between, center);
+// }
+
+// h2 {
+//   @include font(24px, 300, white);
+//   font-size: 24px;
+//   font-weight: 300;
+//   color: white;
+//   line-height: 17px;
+// }
+
+// h3 {
+//   @include font(64px, 500, yellow);
+// }

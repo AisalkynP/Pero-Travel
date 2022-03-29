@@ -1,4 +1,24 @@
-li{
-    list-style: none;
-    
+header {
+  position: absolute;
+  width: 100%;
+  padding: 40px;
+
+  .header {
+    &__nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    &__menu {
+      display: flex;
+      column-gap: 30px;
+    }
+  }
+  a {
+    color: white;
+    transition: color ease 1s;
+  }
+  a:hover {
+    color: yellow;
+  }
 }
