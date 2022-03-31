@@ -10,16 +10,32 @@
       width: 413px;
     }
   }
+  
 }
 .swiper-button-next {
   position: absolute;
-  left: 100px;
-  bottom: 30px;
+  left: 70px;
+  bottom: 40px;
   top: auto;
+  transition: 0.5s;
+  color: #d4d4d4;
+  &:hover {
+    transition: 0.5s;
+    cursor: pointer;
+    color: #0499dd;
+  }
 }
-.swiper-button-next {
+.swiper-button-prev {
   position: absolute;
-  left: 100px;
-  bottom: 30px;
+  left: 10px;
+  bottom: 40px;
   top: auto;
+  transition: 0.5s;
+  color: #d4d4d4;
+
+  &:hover {
+    transition: 0.5s;
+    cursor: pointer;
+    color: #0499dd;
+  }
 }
