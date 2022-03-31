@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="./css/calendar.css" />
     <link rel="stylesheet" href="./css/overview.css" />
   </head>
@@ -65,115 +69,127 @@
     </div>
 
     <div class="triptime">
-      <div class="triptime__pic">
-        <img src="./assets/img/overview/calendar_pic.png" alt="calendar_pic" />
-
-        <span class="triptime__title">Календарь путешествий</span>
-
-        <div class="calendarbox"></div>
-        <div class="calendar">
-          <div class="calendar-header">
-            <div class="year-picker">
-              <span class="year-change" id="prev-year">
-                <pre><</pre>
-              </span>
-              <span class="month-picker" id="month-picker">February</span>
-              <span id="year">2021</span>
-              <span class="year-change" id="next-year">
-                <pre>></pre>
-              </span>
+      <div class="container">
+        <div class="triptime_row">
+          <div class="triptime__row_right">
+            <div class="triptime__row_title">Календарь путешествий</div>
+            <img
+              class="triptime__pic"
+              src="./assets/img/overview/calendar_pic.png"
+              alt=""
+            />
+            <div class="calendar">
+              <div class="calendar-header">
+                <div class="year-picker">
+                  <span class="year-change" id="prev-year">
+                    <pre><</pre>
+                  </span>
+                  <span class="month-picker" id="month-picker">February</span>
+                  <span id="year">2021</span>
+                  <span class="year-change" id="next-year">
+                    <pre>></pre>
+                  </span>
+                </div>
+              </div>
+              <div class="calendar-body">
+                <div class="calendar-week-day">
+                  <div>ПН</div>
+                  <div>ВТ</div>
+                  <div>СР</div>
+                  <div>ЧТ</div>
+                  <div>ПТ</div>
+                  <div>СБ</div>
+                  <div>ВС</div>
+                </div>
+                <div class="calendar-days"></div>
+              </div>
+              <div class="month-list"></div>
             </div>
           </div>
-          <div class="calendar-body">
-            <div class="calendar-week-day">
-              <div>ПН</div>
-              <div>ВТ</div>
-              <div>СР</div>
-              <div>ЧТ</div>
-              <div>ПТ</div>
-              <div>СБ</div>
-              <div>ВС</div>
-            </div>
-            <div class="calendar-days"></div>
-          </div>
-          <div class="month-list"></div>
         </div>
       </div>
     </div>
 
     <div class="route">
-      <div class="container">
-        <div class="route__left">
-          <div class="route__left_title">Описание маршрута</div>
-          <div class="route__left_subtitle">
-            <ul class="route__left_subtitle__ul">
-              <div class="route__list">
-                <img
-                  src="./assets/img/overview/yellow_list.svg"
-                  alt="yellow_list"
-                />
-                <li class="route__left_subtitle__li">
-                  Город Гагра, Колоннада, ресторан "Гагрипш", Парк принца
-                  Ольденбурского;
+        <div class="route__content">
+          <div class="route__left">
+            <div class="route__left_title">Описание маршрута</div>
+            <div class="route__left_subtitle">
+              <ul class="route__left_subtitle__ul">
+                <li class="route__left_subtitle__li route__list">
+                  <img
+                    src="./assets/img/overview/yellow_list.svg"
+                    alt="yellow_list"
+                  />
+                  <span>
+                    Город Гагра, Колоннада, ресторан "Гагрипш", Парк принца
+                    Ольденбурского;
+                  </span>
                 </li>
-              </div>
 
-              <div class="route__list">
-                <img
-                  src="./assets/img/overview/yellow_list.svg"
-                  alt="yellow_list"
-                />
-                <li class="route__left_subtitle__li">
-                  Смотровая площадка "Прощай Родина", "Чабгарский" карниз,
-                  Подвесной мост через реку "Бзыбь";
+                <li class="route__left_subtitle__li route__list">
+                  <img
+                    src="./assets/img/overview/yellow_list.svg"
+                    alt="yellow_list"
+                  />
+                  <span>
+                    Смотровая площадка "Прощай Родина", "Чабгарский" карниз
+                    Подвесной мост через реку "Бзыбь";
+                  </span>
                 </li>
-              </div>
 
-              <div class="route__list">
-                <img
-                  src="./assets/img/overview/yellow_list.svg"
-                  alt="yellow_list"
-                />
-                <li class="route__left_subtitle__li2">
+                <li class="route__left_subtitle__li2 route__list">
+                  <img
+                    src="./assets/img/overview/yellow_list.svg"
+                    alt="yellow_list"
+                  />
                   Дегустация сыра, меда, вина, чачи (входит в стоимость
                   экскурсии), Голубое Озеро, Юпшарский каньон ("Каменный
                   мешок"), Озеро "Рица", Водопады "Девичьи и мужские слезы".
                 </li>
-              </div>
 
-              <span class="route__left_subtitle-span">Далее на выбор:</span>
+                <div class="route__left_subtitle-span">Далее на выбор:</div>
 
-              <li class="fake">lsv</li>
-
-              <div class="route__list">
-                <img
-                  src="./assets/img/overview/yellow_list.svg"
-                  alt="yellow_list"
-                />
-                <li class="route__left_subtitle__li">
+                <li class="route__left_subtitle__li route__list">
+                  <img
+                    src="./assets/img/overview/yellow_list.svg"
+                    alt="yellow_list"
+                  />
                   Монастырь "Новый Афон", Новоафонская Пещера, "Рукотворный"
                   водопад, храм "Симона Кананита", Лебединое озеро.
                 </li>
-              </div>
 
-              <div class="route__list">
-                <img
-                  src="./assets/img/overview/yellow_list.svg"
-                  alt="yellow_list"
-                />
-                <li class="route__left_subtitle__li4">
-                  Термальный источник в с. Приморское.
+                <li class="route__left_subtitle__li4 route__list">
+                  <img
+                    src="./assets/img/overview/yellow_list.svg"
+                    alt="yellow_list"
+                  />
+                    Термальный источник в с. Приморское.
                 </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="route__right">
+            <div class="route__swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="./assets/img/overview/gagra.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./assets/img/overview/gagra.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./assets/img/overview/gagra.png" alt="" />
+                </div>
               </div>
-            </ul>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+            </div>
           </div>
         </div>
-
-        <div class="route__right"></div>
-      </div>
     </div>
-
-    <div class="route__swiper"></div>
 
     <div class="expenses">
       <div class="container">
@@ -225,7 +241,6 @@
           </div>
 
           <div class="info__right">
-            
             <div class="info__right_impor">
               <span class="info__right_span"
                 >Иностранным гражданам въезд в <br />
@@ -240,8 +255,10 @@
 
             <div class="info__right_impor2">
               <span class="info__right_span2"
-                >При возвращении из Абхазии в <br> Россию сдавать ПЦР-тест не нужно, <br>
-                на карантин помещать не будут <br> (Постановление Правительства РФ <br>
+                >При возвращении из Абхазии в <br />
+                Россию сдавать ПЦР-тест не нужно, <br />
+                на карантин помещать не будут <br />
+                (Постановление Правительства РФ <br />
                 1996-Р от 01.08.2020).
               </span>
               <img
@@ -249,12 +266,103 @@
                 alt="exclamation_mark"
               />
             </div>
-
           </div>
         </div>
       </div>
     </div>
 
+    <div class="gallary">
+      <div class="container">
+        <div class="gallary__spans">
+          <span class="gallary__name"> Галерея тура </span>
+          <span class="gallary__see">Смотреть все</span>
+        </div>
+      </div>
+
+      <div class="gallary__pics">
+        <div class="gallary__pics_left">
+          <img
+            class="gallary__pics_left-pic1"
+            src="./assets/img/overview/tour_gallary1.png"
+            alt=""
+          />
+          <div class="gallary__pics_left1">
+            <img
+              class="gallary__pics_left-pic2"
+              src="./assets/img/overview/tour_gallary2.png"
+              alt=""
+            />
+
+            <div class="gallary__pics_left2">
+              <img src="./assets/img/overview/tour_gallary3.png" alt="" />
+              <img
+                class="gallary__pics_left3"
+                src="./assets/img/overview/tour_gallary4.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="gallary__pics_mid">
+          <img src="./assets/img/overview/gagra.png" alt="" />
+        </div>
+
+        <div class="gallary__pics_right">
+          <div class="gallary__pics_right1">
+            <img src="./assets/img/overview/tour_gallary5.png" alt="" />
+            <img src="./assets/img/overview/collonada.png" alt="" />
+          </div>
+
+          <img
+            class="gallary__pics_right2"
+            src="./assets/img/overview/tour_gallary6.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="review">
+      <div class="container">
+        <div class="review__top">
+          <div class="review__name">Отзывы</div>
+          <div class="review__see">Смотреть все</div>
+        </div>
+      </div>
+
+      <div class="review__slide">
+        <div class="review__left">
+          <img
+            class="review__left_img"
+            src="./assets/img/overview/review1.png"
+            alt=""
+          />
+        </div>
+
+        <div class="review__right">
+          <div class="review__right_title">Иван Иванов, 25 лет</div>
+          <div class="review__right_info">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="./js/calendar.js"></script>
+    <script src="./js/swipe.js"></script>
   </body>
 </html>
+
+<div style="width: 200px">block</div>
+
+<span style="width: 200px"> inline </span>
+
+<span style="width: 200px"> inline-block </span>

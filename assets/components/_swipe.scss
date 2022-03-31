@@ -1,0 +1,25 @@
+.route__swiper {
+  height: 830px;
+  position: relative;
+  display: flex;
+  padding-top: 150px;
+}
+.swiper {
+  &-wrapper {
+    .swiper-slide {
+      width: 413px;
+    }
+  }
+}
+.swiper-button-next {
+  position: absolute;
+  left: 100px;
+  bottom: 30px;
+  top: auto;
+}
+.swiper-button-next {
+  position: absolute;
+  left: 100px;
+  bottom: 30px;
+  top: auto;
+}

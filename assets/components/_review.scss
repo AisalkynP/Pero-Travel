@@ -1,0 +1,56 @@
+.review {
+  margin-top: 152px;
+
+  &__top {
+    display: flex;
+    align-items: center;
+    padding-bottom: 90px;
+    justify-content: space-between;
+  }
+  &__name {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #0499dd;
+  }
+  &__see {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-decoration-line: underline;
+    color: #282828;
+  }
+  &__slide {
+    background: #aca9a9;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 45px 40px 27px 40px;
+  }
+  
+  &__right {
+    padding-left: 28px;
+    flex-wrap: nowrap;
+    &_title {
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 17px;
+      color: #282828;
+      padding-bottom: 20px;
+    }
+    &_info {
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+      color: #282828;
+    }
+  }
+}

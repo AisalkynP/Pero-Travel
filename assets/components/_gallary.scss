@@ -1,0 +1,63 @@
+.gallary {
+
+  &__spans {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 154px;
+    padding-bottom: 90px;
+  }
+  &__name {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #0499dd;
+  }
+  &__see {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-decoration-line: underline;
+    color: #282828;
+  }
+  &__pics {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 20px;
+    padding-left: 20px;
+    &_left{
+        &-pic1{
+            padding-bottom: 20px;
+        }
+        &-pic2{
+            padding-right: 20.14px;
+        }
+    }
+    &_left1 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    &_left2 {
+      flex-direction: column;
+    }
+    &_left3{
+        padding-top: 10px;
+
+    }
+    &_mid{
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    &_right1 {
+        display: flex;
+      justify-content: space-between;
+    }
+    &_right2{
+        padding-top: 22px;
+    }
+  }
+}

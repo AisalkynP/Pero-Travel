@@ -1,34 +1,53 @@
 .triptime {
   display: flex;
+  position: relative;
 
   &__pic {
-    margin-top: 150px;
-    position: relative;
-  }
-  &__title {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 29px;
-    text-align: right;
-    color: #0499dd;
     position: absolute;
-    left: 957px;
-    top: 150px;
-    width: 323px;
-    height: 29px;
-    padding: auto;
+    left: 0;
+    top: 0;
+    width: 825px;
+    height: 877px;
   }
-  .calendarbox{
-    background: #EDEDED;
-    border-radius: 10px;
-  }
-  .calendar{
-      position: absolute;
-      top: 270px;
-      left: 720px;
-      background: #EDEDED;
-    border-radius: 10px;
+  &__row {
+    display: flex;
+    width: 100%;
+
+    &_title {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 29px;
+      text-align: right;
+      color: #0499dd;
+      padding: auto;
+      position: relative;
+      z-index: 2;
+      padding: 4px 14px;
+      background: white;
+    }
+
+    &_right {
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      padding: 225px 0 150px;
+      row-gap: 90px;
+      align-items: flex-end;
+    }
   }
 
+  .calendarbox {
+    background: #ededed;
+    border-radius: 10px;
+  }
+  .calendar {
+    background: #ededed;
+    border-radius: 10px;
+    width: 560px;
+    
+  }
 }
+.calendar-header{
+      justify-content: center;
+    }

@@ -13,5 +13,12 @@
   &__bottom {
     display: flex;
     padding-top: 90px;
+    column-gap: 20px;
+    img {
+      &:nth-child(2n) {
+        margin-right: 10px;
+        max-width: 178px;
+      }
+    }
   }
 }
