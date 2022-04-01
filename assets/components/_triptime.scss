@@ -2,13 +2,7 @@
   display: flex;
   position: relative;
 
-  &__pic {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 825px;
-    height: 877px;
-  }
+  
   &__row {
     display: flex;
     width: 100%;
@@ -45,7 +39,17 @@
     background: #ededed;
     border-radius: 10px;
     width: 560px;
+    position: relative;
+    overflow: visible;
     
+    .triptime__pic {
+    position: absolute;
+    width: 825px;
+    height: 877px;
+    top: -270px;
+    left: -780px;
+    z-index: -1;
+  }
   }
 }
 .calendar-header{

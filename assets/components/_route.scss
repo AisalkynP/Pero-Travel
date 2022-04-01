@@ -1,6 +1,7 @@
 .route {
   &__left {
     max-width: 50%;
+    margin-right: -10px;
     &_title {
       font-family: "Montserrat", sans-serif;
       font-style: normal;
@@ -9,7 +10,7 @@
       line-height: 29px;
       color: #0499dd;
       padding-bottom: 90px;
-      padding-top: 210px;
+      padding-top: 90px;
     }
     &_subtitle {
       font-family: "Montserrat", sans-serif;
@@ -45,7 +46,12 @@
     }
   }
   &__right {
-    overflow: hidden;
+    &_navig {
+      display: flex;
+      position: absolute;
+      bottom: -50px;
+      left: 0;
+    }
   }
   &__content {
     display: flex;

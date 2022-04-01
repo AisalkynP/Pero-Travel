@@ -1,6 +1,6 @@
 .review {
   margin-top: 152px;
-
+  
   &__top {
     display: flex;
     align-items: center;
@@ -21,20 +21,27 @@
     font-weight: 500;
     font-size: 12px;
     line-height: 15px;
-    text-decoration-line: underline;
     color: #282828;
+
+    &:hover {
+      cursor: pointer;
+      text-decoration-line: underline;
+      transition: 0.5s;
+    }
   }
-  &__slide {
-    background: #aca9a9;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    padding: 45px 40px 27px 40px;
-  }
-  
+
   &__right {
     padding-left: 28px;
     flex-wrap: nowrap;
+    position: relative;
+
+    
+    &_img {
+      position: absolute;
+      top: 113px;
+      right: -25px;
+      bottom: 0;
+    }
     &_title {
       font-family: "Montserrat";
       font-style: normal;

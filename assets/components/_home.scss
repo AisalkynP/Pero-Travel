@@ -20,10 +20,13 @@
   }
   &__end {
     display: flex;
+    align-items: center;
 
     &_favourites {
       margin-left: 15px;
-      
+      &-favorite{
+        cursor: pointer;
+      }
     }
   }
 }
