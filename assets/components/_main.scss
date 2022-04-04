@@ -3,7 +3,10 @@
   background-repeat: no-repeat;
   min-height: 100vh;
   color: #ffffff;
-  padding: 237px 557px 265px 90px;
+  padding: 237px 557px 0px 90px;
+}
+.mainBtn {
+  margin: 40px 0px 0px 70px;
 }
 h1 {
   font-weight: 700;
@@ -16,22 +19,15 @@ h1 {
   top: 305px;
 }
 
-h3 {
-  font-weight: 900;
-  font-size: 96px;
-  color: transparent; /* прозрачный цвет букв */
-  -webkit-text-stroke: 1px white;
+.PERO {
+  margin-top: 20px;
   width: 723px;
-  height: 117px;
-  font-style: normal;
+  height: 85px;
 }
 .main__socialMedia {
   position: absolute;
   right: 100px;
   top: 300px;
-}
-.btn {
-  margin: 40px 0px 0px 70px;
 }
 
 .main__slide {

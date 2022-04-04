@@ -5,8 +5,8 @@
   line-height: 17px;
 }
 
-@mixin flex($justify: center, $align: center) {
-  display: flex;
+@mixin flex($display:flex, $justify: space-between, $align: center) {
+  display: $display;
   justify-content: $justify;
   align-items: $align;
 }

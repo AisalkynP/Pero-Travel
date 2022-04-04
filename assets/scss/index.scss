@@ -7,6 +7,7 @@
 @import "../components/header";
 @import "../components/hero";
 @import "../components/main";
+@import "../components/popular";
 
 @import "../components/footer";
 
@@ -41,9 +42,7 @@ a {
   color: white;
 }
 
-img {
-  max-width: 100%;
-}
+
 
 button {
   border: none;

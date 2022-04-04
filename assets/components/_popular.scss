@@ -1,0 +1,88 @@
+.popular {
+  color: white;
+
+  &__title {
+    @include flex(flex, space-between);
+    margin: 263px 0 90px;
+    font-size: 24px;
+    line-height: 29px;
+    color: #0499dd;
+  }
+  &__subtitle {
+    font-size: 12px;
+    line-height: 15px;
+    text-decoration-line: underline;
+    color: #282828;
+  }
+  &__wrap{
+    @include flex(flex,space-between)
+  }
+  &__box {
+   
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: 500px;
+    font-size: 12px;
+    background-image: url(/assets/img/bridge.png);
+  }
+  &__box2 {
+    
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: 500px;
+    font-size: 12px;
+    background-image: url(/assets/img/horsewoman.png);
+  }
+  &__box3 {
+    
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: 500px;
+    font-size: 12px;
+    background-image: url(/assets/img/longWaterfall.png);
+  }
+  &__box4 {
+   
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: 500px;
+    font-size: 12px;
+    background-image: url(/assets/img/church.png);
+    background-repeat: no-repeat;
+  }
+
+  &__row {
+    display: flex;
+    padding: 10px 0 20px;
+  }
+  &__logo {
+    width: 11.25px;
+    height: 11.25px;
+    margin-right: 5px;
+  }
+  &__text {
+    width: 328px;
+    height: 105px;
+  }
+  
+  &__inside{
+    padding: 211px 0px 0px 16px;
+    
+  }
+}
+h4 {
+  margin-top: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffc700;
+}
+.popularBtn {
+  margin: 20px 0px 42px 6px;
+  width: 160px;
+  height: 40px;
+}

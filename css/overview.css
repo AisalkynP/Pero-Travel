@@ -1,12 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-@font-face {
-  font-family: 'mr_KindlyJasmineG';
-  src: url("../fonts/mr_kindlyjasmineg.eot");
-  /* IE 9 Compatibility Mode */
-  src: url("../fonts/mr_kindlyjasmineg.eot?#iefix") format("embedded-opentype"), url("../fonts/mr_kindlyjasmineg.woff2") format("woff2"), url("../fonts/mr_kindlyjasmineg.woff") format("woff"), url("../fonts/mr_kindlyjasmineg.ttf") format("truetype"), url("../fonts/mr_kindlyjasmineg.svg#mr_kindlyjasmineg") format("svg");
-  /* Chrome < 4, Legacy iOS */
-}
-
 .btn {
   background: linear-gradient(92.71deg, #0499dd 0%, #17c1bc 100%);
   border-radius: 60px;
