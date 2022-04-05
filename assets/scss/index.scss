@@ -8,41 +8,57 @@
 @import "../components/hero";
 @import "../components/main";
 @import "../components/popular";
+@import "../components/about";
+@import "../components/excursion";
 
 @import "../components/footer";
 
-.container {
-  max-width: 80%;
-  margin: 0 auto;
-}
+
 
 body {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: Montserrat;
 }
+.container {
+  max-width: 80%;
+   margin: 0 auto;
+}
 
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+  row-gap: 30px;
+}
+
+.col-3{
+  width: 25%;
+  padding: 0 15px;
+}
+
+.col-4{
+  width: 33.3333333%;
+  padding: 0 15px;
+}
+.col-2{
+  width: 20%;
+  padding: 0 15px;
+}
+.col-6{
+  width: 50%;
+  
+}
 ul {
   list-style: none;
   margin: 0;
 }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  padding: 0;
-  margin: 0;
-}
-
 a {
   text-decoration: none;
   color: white;
 }
-
-
 
 button {
   border: none;

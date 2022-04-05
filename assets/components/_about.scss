@@ -1,0 +1,28 @@
+.about{
+    margin: 171px 0px 0px 150px;
+   
+    
+    &__img{
+        width: 1071px;
+        height: 749px;
+    }
+    &__box{
+        position: relative;
+        bottom: 630px;
+        left: 748px;  
+        padding: 61px 0 0 85px;
+        width: 450px;
+        height: 400px;
+        background: #EDEDED;
+        border-radius: 10px;
+    }
+    &__title{
+        color: #0499DD;
+        padding-bottom: 40px;
+    }
+    &__text{
+        font-size: 14px;
+        width: 382px;
+        height: 136px;
+    }
+}

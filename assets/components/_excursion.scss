@@ -1,0 +1,43 @@
+.excursions{
+    &__title{
+        font-size: 24px;
+        line-height: 29px;
+        color: #0499DD;
+        margin-bottom: 90px;
+    }
+    &__subtitle{
+        margin-bottom: 10px;
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 700;   
+        color: #0499DD; 
+    }
+    &__text{
+        width: 455px;
+        height: 102px;
+    }
+    &__img{
+        width: 75px;
+        height: 74px;
+        margin-right: 20px;
+    }
+    &__footer{
+       
+
+        &-text{
+            margin: 60px 0 20px 0;
+            text-align: center;
+        }
+        
+    }
+   
+    
+}
+.excursions__btn{
+    margin-left: 420px;
+}
+
+
+.col-6{
+    display: flex;
+}

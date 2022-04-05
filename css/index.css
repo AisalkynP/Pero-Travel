@@ -207,7 +207,7 @@ h1 {
   background-repeat: no-repeat;
 }
 
-.popular__row {
+.popular__price {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -243,29 +243,122 @@ h4 {
   height: 40px;
 }
 
+.about {
+  margin: 171px 0px 0px 150px;
+}
+
+.about__img {
+  width: 1071px;
+  height: 749px;
+}
+
+.about__box {
+  position: relative;
+  bottom: 630px;
+  left: 748px;
+  padding: 61px 0 0 85px;
+  width: 450px;
+  height: 400px;
+  background: #EDEDED;
+  border-radius: 10px;
+}
+
+.about__title {
+  color: #0499DD;
+  padding-bottom: 40px;
+}
+
+.about__text {
+  font-size: 14px;
+  width: 382px;
+  height: 136px;
+}
+
+.excursions__title {
+  font-size: 24px;
+  line-height: 29px;
+  color: #0499DD;
+  margin-bottom: 90px;
+}
+
+.excursions__subtitle {
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 700;
+  color: #0499DD;
+}
+
+.excursions__text {
+  width: 455px;
+  height: 102px;
+}
+
+.excursions__img {
+  width: 75px;
+  height: 74px;
+  margin-right: 20px;
+}
+
+.excursions__footer-text {
+  margin: 60px 0 20px 0;
+  text-align: center;
+}
+
+.excursions__btn {
+  margin-left: 420px;
+}
+
+.col-6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Montserrat;
+}
+
 .container {
   max-width: 80%;
   margin: 0 auto;
 }
 
-body {
-  margin: 0;
-  font-family: Montserrat;
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 -15px;
+  row-gap: 30px;
+}
+
+.col-3 {
+  width: 25%;
+  padding: 0 15px;
+}
+
+.col-4 {
+  width: 33.3333333%;
+  padding: 0 15px;
+}
+
+.col-2 {
+  width: 20%;
+  padding: 0 15px;
+}
+
+.col-6 {
+  width: 50%;
 }
 
 ul {
   list-style: none;
-  margin: 0;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  padding: 0;
   margin: 0;
 }
 
