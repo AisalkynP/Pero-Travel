@@ -1,0 +1,40 @@
+.reviews{
+    &__row{
+        display: flex;
+        
+    }
+ 
+    &__box1{
+        display: flex;
+        width: 740px;
+        height: 322px;
+        background: #EDEDED;
+        border-radius: 10px;
+        margin-right: 20px;
+    }
+    &__wrap{
+        margin: 38px 0px 38px 35px;
+    }
+    &__title{
+        margin: 38px 0px 20px 28px;
+    }
+    &__text{
+        width: 395px;
+        height: 153px;
+        margin-left: 28px;
+    }
+    &__img2{
+        position: relative;
+        top: -95px;
+        right: -182px;
+
+    }
+    &__box2{
+        display: flex;
+        width: 480px;
+        height: 322px;
+        background: #EDEDED;
+        border-radius: 10px;
+
+    }
+}

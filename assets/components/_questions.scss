@@ -1,0 +1,56 @@
+.questions{
+    margin-top: 172px;
+    &__box{
+        background-image: url(../img/forest.png);
+        min-height: 100%;   
+        position: relative;
+        overflow: hidden;
+        max-width: 100%;
+        
+        &-inside{
+            position: relative;
+            top: -645px;
+            right: -625px;
+        
+            width: 560px;
+            height: 640px;
+            background: rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(20px);
+           
+        }
+          
+    }
+    &__wrap{
+        padding: 132px 95px 0 105px;  
+    }
+    &__title{
+        margin: 0;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        color: #FFFFFF;
+    }
+    &__subtitle{
+       font-weight: 500;
+       font-size: 14px;
+       line-height: 17px;
+       color: #FFC700;
+       
+    }
+    &__text{
+        border-bottom: solid white 1px ;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        color: #FFFFFF;
+        padding-top: 45px;
+        
+    }
+    
+       
+    }
+    .questionsBtn{
+        margin-top: 83px;
+    }
+  
+    
