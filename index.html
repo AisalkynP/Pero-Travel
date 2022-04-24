@@ -6,7 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+ 
   <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./slick-1.8.1/slick/slick.css">
+  <link rel="stylesheet" href="./slick-1.8.1/slick/slick-theme.css">
+
   <link rel="stylesheet" href="./css/index.css">
 </head>
 
@@ -28,11 +32,13 @@
 
   <section class="main">
     <div class="container">
+      <div class="main__wrapper">
       <h1>ПУТЕШЕСТВУЙ
       </h1>
       <img class="text" src="./assets/img/вместе с.png" alt="">
       <img class="PERO" src="./assets/img/PERO TRAVEL.png" alt="">
     </div>
+  </div>
     <button class="mainBtn btn">К экскурсиям <img src="./assets/img/arrow_button.svg" alt=""> </button>
     <img class="main__socialMedia" src="./assets/img/соц сети.png" alt="">
 
@@ -52,7 +58,7 @@
         <p class="popular__subtitle">Смотреть все</p>
       </h4>
       <div class="popular__wrap">
-        <div class="popular__box">
+        <div class="popular__box slide">
           <div class="popular__inside">
             <span>Автобусный тур</span>
             <h4>Обзорная по Сочи (из Адлера)</h4>
@@ -71,7 +77,7 @@
             <button class="popularBtn btn">Подробнее</button>
           </div>
         </div>
-        <div class="popular__box2">
+        <div class="popular__box2 slide">
           <div class="popular__inside">
             <span>Конный тур</span>
             <h4>Конные прогулки</h4>
@@ -88,7 +94,7 @@
             <button class="popularBtn btn">Подробнее</button>
           </div>
         </div>
-        <div class="popular__box3">
+        <div class="popular__box3 slide">
           <div class="popular__inside">
             <span>Квадротур</span>
             <h4>Пасть дракона</h4>
@@ -105,7 +111,7 @@
             <button class="popularBtn btn">Подробнее</button>
           </div>
         </div>
-        <div class="popular__box4">
+        <div class="popular__box4 slide">
           <div class="popular__inside">
             <span>Автобусный тур</span>
             <h4>Женский монастырь</h4>
@@ -140,7 +146,6 @@
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
         magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
         consequat. </p>
-      <br>
       <br>
       <p class="about__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
         laudantium, totam rem
@@ -206,7 +211,6 @@
 
   </section>
 
-  
   <section class="gallary">
     <div class="container">
       <div class="gallary__spans">
@@ -240,18 +244,18 @@
         </div>
 
         <div class="gallary__pics_mid">
-          <img src="./assets/img/overview/gagra.png" alt="" />
+          <img class="midPicture" src="./assets/img/longWaterfall.png" alt="" />
         </div>
 
         <div class="gallary__pics_right">
           <div class="gallary__pics_right1">
             <img src="./assets/img/overview/tour_gallary5.png" alt="" />
-            <img src="./assets/img/overview/collonada.png" alt="" />
+            <img src="./assets/img/sunset.png" alt="" />
           </div>
 
           <img
             class="gallary__pics_right2"
-            src="./assets/img/overview/tour_gallary6.png"
+            src="./assets/img/lake.png"
             alt=""
           />
         </div>
@@ -259,7 +263,25 @@
     </div>
   </section>
 
-  
+  <section class="reviews">
+    <div class="container">
+    <h4 class="popular__title">
+      <span>Отзывы</span>
+      <p class="popular__subtitle">Смотреть все</p>
+    </h4>
+
+    <div class="reviews__row">
+
+    <div class="reviews__box1">
+      <div class="reviews__wrap">
+      <img class="review__img" src="./assets/img/coupleView.png" alt=""> 
+    </div>
+     <div class="reviews__wrap2">
+      <h4 class="reviews__title">Иван Иванов, 25 лет</h4>
+      <p class="reviews__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <img class="reviews__img2" src="./assets/img/”.png" alt="">
+    </div>
+      
 
 
 
@@ -267,12 +289,60 @@
 
 
 
+  </div>
+  <div class="reviews__box2">
+    <div class="reviews__wrap">
+    <img class="review__img" src="./assets/img/coupleSunset.png" alt=""> 
+  </div>
+   <div class="reviews__wrap2">
+    <h4 class="reviews__title">Иван Иванов, 25 лет</h4>
+    <img src="./assets/img/Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex e (2).png" alt="">
+   
+    
+  </div>
+</div>
+    
 
 
 
 
 
 
+
+</div>
+
+
+
+
+  </section>
+
+  <section class="questions">
+    <div class="questions__box">
+      <img src="./assets/img/forest.png" alt="">
+      <div class="questions__box-inside">
+        <div class="questions__wrap">
+        <h5 class="questions__title">Остались вопросы?</h5>
+        <span class="questions__subtitle">Оставь заявку и мы ответим</span>
+        <p class="questions__text">Имя</p>
+        <p class="questions__text">Телефон</p>
+        <p class="questions__text">Почта</p>
+        <button class="btn questionsBtn">Оставить заявку</button>
+      </div>
+      </div>
+      
+
+    </div>
+
+
+
+
+  </section>
+
+ 
+ <script src="./slick-1.8.1/slick/slick.min.js"></script>
+ <script src="./slick-1.8.1/slick.jquery.json"></script>
+ 
+  <script src="./script.js"></script>
 
 </body>
 
