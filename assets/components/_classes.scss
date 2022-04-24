@@ -10,9 +10,17 @@
   color: #ffffff;
   padding: 17px 40px;
   display: flex;
+  border: 3px solid #0499dd;
   align-items: center;
+  transition: 0.5s;
 
   &__arrow {
     padding-left: 9px;
+  }
+  &:hover {
+    transition: 0.5s;
+    background: none;
+    color: #0499dd;
+    cursor: pointer;
   }
 }

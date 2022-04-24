@@ -5,12 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./css/overview.css" />
     <link rel="stylesheet" href="./css/calendar.css" />
+    <link rel="stylesheet" href="./css/overview.css" />
   </head>
   <body>
-
-
     <div class="home">
       <div class="container">
         <div class="home__title">Автобусный тур</div>
@@ -26,7 +24,11 @@
             </div>
           </button>
           <div class="home__end_favourites">
-            <img src="./assets/img/overview/favourites.svg" alt="favourites" />
+            <img
+              class="home__end_favourites-favorite"
+              src="./assets/img/overview/favourites.svg"
+              alt="favourites"
+            />
           </div>
         </div>
       </div>
@@ -46,66 +48,399 @@
             </div>
           </div>
           <div class="trip__right">
-            <img
-              class="trip__right_img"
-              src="./assets/img/overview/adult.svg"
-              alt=""
-            />
-            <img
-              class="trip__right_img"
-              src="./assets/img/overview/child.svg"
-              alt=""
-            />
-            <img
-              class="trip__right_img"
-              src="./assets/img/overview/time.svg"
-              alt=""
-            />
+            <div class="expenses__bottom_cringe">
+              <div class="circle"></div>
+              <div class="expenses__bottom_card">
+              
+              <div class="expenses__bottom_card-price">
+                <img src="./assets/img/overview/coins.svg" alt="" />
+                <span> 1 618 ₽ </span>
+              </div>
+              <span>Взрослый билет</span>
+            </div>
+            </div>
+
+            <div class="expenses__bottom_cringe">
+              <div class="circle"></div>
+              <div class="expenses__bottom_card">
+              
+              <div class="expenses__bottom_card-price">
+                <img src="./assets/img/overview/coins.svg" alt="" />
+                <span> 1 412 ₽ </span>
+              </div>
+              <span>Детский билет</span>
+            </div>
+            </div>
+
+            <div class="expenses__bottom_cringe">
+              <div class="circle"></div>
+              <div class="expenses__bottom_card">
+              
+              <div class="expenses__bottom_card-price">
+                <img src="./assets/img/overview/clock.svg" alt="" />
+                <span> 12 часов </span>
+              </div>
+            </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
 
     <div class="triptime">
-        
-      <div class="triptime__pic">
-        <img src="./assets/img/overview/calendar_pic.png" alt="calendar_pic" />
-        
-        <span class="triptime__title">Календарь путешествий</span>
+      <div class="container">
+        <div class="triptime_row">
+          <div class="triptime__row_right">
+            <div class="triptime__row_title">Календарь путешествий</div>
 
-        <div class="calendarbox">
-            
-        </div>
-        <div class="calendar">
-          <div class="calendar-header">
-            <div class="year-picker">
-              <span class="year-change" id="prev-year">
-                <pre><</pre>
-              </span>
-              <span class="month-picker" id="month-picker">February</span>
-              <span id="year">2021</span>
-              <span class="year-change" id="next-year">
-                <pre>></pre>
-              </span>
+            <div class="calendar">
+              <img
+                class="triptime__pic"
+                src="./assets/img/overview/calendar_pic.png"
+                alt=""
+              />
+              <div class="calendar-header">
+                <div class="year-picker">
+                  <span class="year-change" id="prev-year">
+                    <pre><</pre>
+                  </span>
+                  <span class="month-picker" id="month-picker">February</span>
+                  <span id="year">2021</span>
+                  <span class="year-change" id="next-year">
+                    <pre>></pre>
+                  </span>
+                </div>
+              </div>
+              <div class="calendar-body">
+                <div class="calendar-week-day">
+                  <div>ПН</div>
+                  <div>ВТ</div>
+                  <div>СР</div>
+                  <div>ЧТ</div>
+                  <div>ПТ</div>
+                  <div>СБ</div>
+                  <div>ВС</div>
+                </div>
+                <div class="calendar-days"></div>
+              </div>
+              <div class="month-list"></div>
             </div>
           </div>
-          <div class="calendar-body">
-            <div class="calendar-week-day">
-              <div>ПН</div>
-              <div>ВТ</div>
-              <div>СР</div>
-              <div>ЧТ</div>
-              <div>ПТ</div>
-              <div>СБ</div>
-              <div>ВС</div>
-            </div>
-            <div class="calendar-days"></div>
-          </div>
-          <div class="month-list"></div>
         </div>
-
       </div>
     </div>
+
+    <div class="route">
+      <div class="container">
+        <div class="route__content">
+        <div class="route__left">
+          <div class="route__left_title">Описание маршрута</div>
+          <div class="route__left_subtitle">
+            <ul class="route__left_subtitle__ul">
+              <li class="route__left_subtitle__li route__list">
+                <img
+                  src="./assets/img/overview/yellow_list.svg"
+                  alt="yellow_list"
+                />
+                <span>
+                  Город Гагра, Колоннада, ресторан "Гагрипш", Парк принца
+                  Ольденбурского;
+                </span>
+              </li>
+
+              <li class="route__left_subtitle__li route__list">
+                <img
+                  src="./assets/img/overview/yellow_list.svg"
+                  alt="yellow_list"
+                />
+                <span>
+                  Смотровая площадка "Прощай Родина", "Чабгарский" карниз
+                  Подвесной мост через реку "Бзыбь";
+                </span>
+              </li>
+
+              <li class="route__left_subtitle__li2 route__list">
+                <img
+                  src="./assets/img/overview/yellow_list.svg"
+                  alt="yellow_list"
+                />
+                Дегустация сыра, меда, вина, чачи (входит в стоимость
+                экскурсии), Голубое Озеро, Юпшарский каньон ("Каменный мешок"),
+                Озеро "Рица", Водопады "Девичьи и мужские слезы".
+              </li>
+
+              <div class="route__left_subtitle-span">Далее на выбор:</div>
+
+              <li class="route__left_subtitle__li route__list">
+                <img
+                  src="./assets/img/overview/yellow_list.svg"
+                  alt="yellow_list"
+                />
+                Монастырь "Новый Афон", Новоафонская Пещера, "Рукотворный"
+                водопад, храм "Симона Кананита", Лебединое озеро.
+              </li>
+
+              <li class="route__left_subtitle__li4 route__list">
+                <img
+                  src="./assets/img/overview/yellow_list.svg"
+                  alt="yellow_list"
+                />
+                Термальный источник в с. Приморское.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="route__right">
+       
+        </div>
+      </div>
+      </div>
+      
+    </div>
+
+    <div class="expenses">
+      <div class="container">
+        <h2 class="expenses__h2">Дополнительные расходы (по желанию)</h2>
+
+        <div class="expenses__bottom">
+
+          <div class="expenses__bottom_cringe">
+            <div class="circle"></div>
+            <div class="expenses__bottom_card">
+            
+            <div class="expenses__bottom_card-price">
+              <img src="./assets/img/overview/coins.svg" alt="" />
+              <span> 200 ₽ </span>
+            </div>
+            <span>Дача Сталина</span>
+          </div>
+          </div>
+
+          <div class="expenses__bottom_cringe">
+            <div class="circle"></div>
+            <div class="expenses__bottom_card">
+            
+            <div class="expenses__bottom_card-price">
+              <img src="./assets/img/overview/coins.svg" alt="" />
+              <span> 200 ₽ </span>
+            </div>
+            <span>Молочный водопад</span>
+          </div>
+          </div>
+
+          <div class="expenses__bottom_cringe">
+            <div class="circle"></div>
+            <div class="expenses__bottom_card">
+            
+            <div class="expenses__bottom_card-price">
+              <img src="./assets/img/overview/coins.svg" alt="" />
+              <span> 500 ₽ </span>
+            </div>
+            <span>Новоафинская пещера</span>
+          </div>
+          </div>
+
+          <div class="expenses__bottom_cringe">
+            <div class="circle"></div>
+            <div class="expenses__bottom_card">
+            
+            <div class="expenses__bottom_card-price">
+              <img src="./assets/img/overview/coins.svg" alt="" />
+              <span> 500 ₽ </span>
+            </div>
+            <span>Термальный источник</span>
+          </div>
+          </div>
+
+          <div class="expenses__bottom_cringe">
+            <div class="circle"></div>
+            <div class="expenses__bottom_card">
+
+            <span>Обед</span>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="info">
+      <div class="container">
+        <span class="info__span">Важная информация</span>
+
+        <div class="info__parts">
+          <div class="info__left">
+            <div class="info__left_title">
+              При пересечении границы (Россия-Абхазия) при себе иметь:
+            </div>
+            <div class="info__left_passport">
+              <img src="./assets/img/overview/passport.svg" alt="passport" />
+              <span class="info__left_info1">Паспорт гражданина РФ</span>
+            </div>
+
+            <div class="info__left_birth">
+              <img src="./assets/img/overview/passport.svg" alt="passport" />
+
+              <div class="info__left_spans">
+                <span class="info__left_info2">
+                  Гражданам до 14 лет свидетельство о <br />
+                  рождении
+                </span>
+                <span class="info__left_info3"
+                  >Несовершеннолетние дети пересекают границу в сопровождении
+                  родителей, в сопровождении законного представителя
+                  (нотариально заверенная доверенность с указанием страны вывоза
+                  ребенка).
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="info__right">
+            <div class="info__right_impor">
+              <span class="info__right_span"
+                >Иностранным гражданам въезд в <br />
+                Абхазию ограничен, кроме граждан <br />
+                Украины, республик ДНР и ЛНР.
+              </span>
+              <img
+                src="./assets/img/overview/exclamation_mark.svg"
+                alt="exclamation_mark"
+              />
+            </div>
+
+            <div class="info__right_impor2">
+              <span class="info__right_span2"
+                >При возвращении из Абхазии в <br />
+                Россию сдавать ПЦР-тест не нужно, <br />
+                на карантин помещать не будут <br />
+                (Постановление Правительства РФ <br />
+                1996-Р от 01.08.2020).
+              </span>
+              <img
+                src="./assets/img/overview/exclamation_mark.svg"
+                alt="exclamation_mark"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="gallary">
+      <div class="container">
+        <div class="gallary__spans">
+          <span class="gallary__name"> Галерея тура </span>
+          <span class="gallary__see">Смотреть все</span>
+        </div>
+
+        <div class="gallary__pics">
+          <div class="gallary__pics_left">
+            <img
+              class="gallary__pics_left-pic1"
+              src="./assets/img/overview/tour_gallary1.png"
+              alt=""
+            />
+            <div class="gallary__pics_left1">
+              <img
+                class="gallary__pics_left-pic2"
+                src="./assets/img/overview/tour_gallary2.png"
+                alt=""
+              />
+
+              <div class="gallary__pics_left2">
+                <img src="./assets/img/overview/tour_gallary3.png" alt="" />
+                <img
+                  class="gallary__pics_left3"
+                  src="./assets/img/overview/tour_gallary4.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="gallary__pics_mid">
+            <img src="./assets/img/overview/gagra.png" alt="" />
+          </div>
+
+          <div class="gallary__pics_right">
+            <div class="gallary__pics_right1">
+              <img src="./assets/img/overview/tour_gallary5.png" alt="" />
+              <img src="./assets/img/overview/collonada.png" alt="" />
+            </div>
+
+            <img
+              class="gallary__pics_right2"
+              src="./assets/img/overview/tour_gallary6.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="review">
+      <div class="container">
+        <div class="review__top">
+          <div class="review__name">Отзывы</div>
+          <div class="review__see">Смотреть все</div>
+        </div>
+      </div>
+
+      
+    </div>
+
+    <section class="tour">
+      <div class="container">
+        <div class="tourRow">
+          <div class="tourRow__right">
+            <form class="tourRow__form">
+              <img
+                class="tourRow__pic"
+                src="./assets/img/overview/last_pic.png"
+                alt=""
+              />
+              <h2 class="tourRow__form_title">Забронировать тур</h2>
+              <label class="tourRow__form_label">
+                <input type="text" placeholder="Дата" />
+                <img src="./assets/img/overview/calendar_blue.svg" alt="" />
+              </label>
+
+              <label class="tourRow__form_label">
+                <input type="number" placeholder="Количество взрослых" />
+                <img src="./assets/img/overview/people_blue.svg" alt="" />
+              </label>
+
+              <label class="tourRow__form_label">
+                <input type="number" placeholder="Количество детей" />
+                <img src="./assets/img/overview/people_blue.svg" alt="" />
+              </label>
+              <div class="tourRow__form_btn">
+                <button class="btn">Забронировать</button>
+
+                <label tabindex="0" class="tourRow__form_heart">
+                  <svg
+                    width="30"
+                    height="26"
+                    viewBox="0 0 30 26"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M26.0497 3.76234C25.4112 3.1236 24.6532 2.6169 23.8189 2.2712C22.9845 1.92549 22.0903 1.74756 21.1872 1.74756C20.2841 1.74756 19.3898 1.92549 18.5555 2.2712C17.7211 2.6169 16.9631 3.1236 16.3247 3.76234L14.9997 5.08734L13.6747 3.76234C12.385 2.47273 10.636 1.74823 8.81216 1.74823C6.98837 1.74823 5.23928 2.47273 3.94966 3.76234C2.66005 5.05196 1.93555 6.80105 1.93555 8.62484C1.93555 10.4486 2.66005 12.1977 3.94966 13.4873L5.27466 14.8123L14.9997 24.5373L24.7247 14.8123L26.0497 13.4873C26.6884 12.8489 27.1951 12.0909 27.5408 11.2565C27.8865 10.4222 28.0644 9.52795 28.0644 8.62484C28.0644 7.72173 27.8865 6.82747 27.5408 5.99315C27.1951 5.15882 26.6884 4.40079 26.0497 3.76234V3.76234Z"
+                      stroke="#D4D4D4"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </label>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <script src="./js/calendar.js"></script>
   </body>

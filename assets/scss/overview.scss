@@ -8,14 +8,27 @@
 @import '../components/home';
 @import '../components/description';
 @import '../components/triptime';
+@import '../components/route';
+@import '../components/expenses';
+@import '../components/info';
+@import '../components/gallary';
+@import '../components/review';
+
+@import '../components/swipe';
+@import '../components/second-swiper';
+@import '../components/tour';
 
 
+
+
+@import '../components/adaptive';
 @import '../components/footer';
 
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
 
 }
 .home{
@@ -27,4 +40,5 @@ body {
 .container{
     max-width: 1120px;
     margin: 0 auto;
+    width: 100%;
 }
