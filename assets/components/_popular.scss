@@ -16,43 +16,53 @@
   }
   &__wrap{
     @include flex(flex,space-between)
+    display: flex;
+    margin: 0 -10px;
+
+    
+    flex-wrap:wrap
   }
   &__box {
    
     display: flex;
     flex-direction: column;
-    width: 360px;
-    height: 500px;
+    width: 320px;
+    height: 497px;
     font-size: 12px;
+    border-radius: 3%;
     background-image: url(/assets/img/bridge.png);
   }
   &__box2 {
     
     display: flex;
     flex-direction: column;
-    width: 360px;
-    height: 500px;
+    width: 320px;
+    height: 497px;
     font-size: 12px;
+    border-radius: 3%;
     background-image: url(/assets/img/horsewoman.png);
   }
   &__box3 {
     
     display: flex;
     flex-direction: column;
-    width: 360px;
-    height: 500px;
+    width: 320px;
+    height: 497px;
     font-size: 12px;
+    border-radius: 3%;
     background-image: url(/assets/img/longWaterfall.png);
   }
   &__box4 {
    
     display: flex;
     flex-direction: column;
-    width: 360px;
-    height: 500px;
+    width: 125px;
+    height: 497px;
     font-size: 12px;
+    border-radius: 3%;
     background-image: url(/assets/img/church.png);
     background-repeat: no-repeat;
+    overflow: hidden;
   }
 
   &__price {
@@ -65,8 +75,8 @@
     margin-right: 5px;
   }
   &__text {
-    width: 328px;
-    height: 105px;
+    width: 290px;
+    height: 100px;
   }
   
   &__inside{

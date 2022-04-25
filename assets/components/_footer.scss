@@ -1,0 +1,51 @@
+.footer{
+    width: 1440px;
+    height: 173px;
+    background: #EDEDED;
+
+    &__wrapper{
+        @include flex(flex,space-between)
+    }
+
+    
+    &__img{
+        width: 80px;
+       height: 114px;
+       margin: 30px 110px 30px 160px ;
+
+    }
+    &__box{
+        display: flex;
+        
+    }
+    &__list{
+        margin: 53px 200px 53px 0px;
+        
+    } 
+    &__contact{
+        text-align: center;
+        &-wrap{
+            display: flex;
+            margin: 10px;
+        
+        }
+        &-img{
+            margin-right: 10px;
+        }
+
+    }
+    &__socialMedia-icons{
+        margin-left:10px ;
+    }
+    &__socialMedia-icon{
+        margin-left:7px;
+    }
+    
+ 
+
+    
+
+    
+
+}
+  

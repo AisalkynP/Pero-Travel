@@ -31,10 +31,13 @@
     }
     &__box2{
         display: flex;
-        width: 480px;
+    
+        width: 740px;
         height: 322px;
         background: #EDEDED;
         border-radius: 10px;
+        overflow: hidden;
+       
 
     }
 }
